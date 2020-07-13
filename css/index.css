@@ -200,6 +200,15 @@ header p:first-of-type {
 
 }
 
+#buy-now {
+        color: whitesmoke;
+}
+
+#buy-now:hover {
+        text-decoration: none;
+    color: var(--main-color);
+}
+
 .section-header {
     text-align: center;
     font-size: 30px;

@@ -1,58 +1,58 @@
-[
-    {
+[        {
         "id": "1",
-        "title": "Large drone",
-        "image": "drone-large.jpg",
-        "description": "Large drone for most critical missions. Can carry load.",
-        "price": 499.99
+        "title": "Fruit Keg Tapping Kit",
+        "image": "fruit-keg-tapping-kit350-350.jpg",
+        "description": "Cute Fruit Keg Tapping Kit",
+        "price": 20.00
     },
     {
         "id": "2",
-        "title": "Small drone",
-        "image": "drone-small.jpg",
-        "description": "Small drone. Can fly undetected.",
-        "price": 199.99
+        "title": "Bicycle Pizza Cutter",
+        "image": "bicycle-pizza-cutter350-350.jpg",
+        "description": "Bicycle Pizza Cutter Wheel",
+        "price": 10.00
     },
     {
         "id": "3",
-        "title": "Blue drone",
-        "image": "drone-blue.jpg",
-        "description": "Nice-looking drone in blue color. Has built-in HD camera",
-        "price": 249.99
+        "title": "Nessie Laddle",
+        "image": "nessie-ladle350-350.jpg",
+        "description": "Nessie Laddle",
+        "price": 10.00
     },
     {
         "id": "4",
-        "title": "Red drone",
-        "image": "drone-red.jpg",
-        "description": "Nice-looking drone in red color",
-        "price": 229.99
+        "title": "Popsicle Molds",
+        "image": "four-popsicle-molds350-350.jpg",
+        "description": "Bright Popsicle Molds for Hot Summer",
+        "price": 10.00        
     },
-    {
+        {
         "id": "5",
-        "title": "Black gyroboard",
-        "image": "gyroboard-black.jpg",
-        "description": "Black gyroboard to match your style",
-        "price": 729.99
+        "title": "Funny Silicone Egg Mold",
+        "image": "funny-silicone-egg-mold350-350.jpg",
+        "description": "Funny Silicone Egg Moldr",
+        "price": 5.00        
     },
-    {
+            {
         "id": "6",
-        "title": "White gyroboard",
-        "image": "gyroboard-white.jpg",
-        "description": "White gyroboard with blue lights",
-        "price": 829.99
+        "title": "Rock 'n' Roll Oven Mitt",
+        "image": "rock-and-roll-oven-mitt350-350.jpg",
+        "description": "Rock 'n' Roll Oven Mitt",
+        "price": 10.00        
     },
-    {
+            {
         "id": "7",
-        "title": "Tesla Model X",
-        "image": "nessie-laddle350-350.jpg",
-        "description": "Best crossover in the World",
-        "price": 99999.99
+        "title": "Silicone Tea Infuser",
+        "image": "mister-tea-silicone-infuser350-350.jpg",
+        "description": "Silicone Tea Infuser",
+        "price": 5.00           
     },
-    {
+            {
         "id": "8",
-        "title": "Tesla Roadster",
-        "image": "bear-oven-mitts350-350.jpg",
-        "description": "Best sports car in the World",
-        "price": 249999.99
+        "title": "Darth Vader Oven Mitts",
+        "image": "darth-vader-oven-mitts350-350.jpg",
+        "description": "Darth Vader Oven Mitts",
+        "price": 25.00        
     }
-]
+
+    ]

@@ -37,9 +37,9 @@
 		      <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
               <li class="nav-item"><a class="nav-link" href="#bestselling">Best-selling</a></li>
 		      <li class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
-              <li class="nav-item"><button class="basket-button"><a class="openCartLink" href="#modal-cart" data-toggle="modal">
+              <li class="nav-item"><div class="basket-button"><a class="openCartLink" href="#modal-cart" data-toggle="modal">
                 BASKET<span id="cart-badge" class="badge badge-light"></span>
-</a></button></li>
+</a></div></li>
             </ul>
         </div>
 	      </nav>
@@ -51,7 +51,7 @@
           <span>for Cute Home</span>
 	    </h1>
         <p>10+ models of fancy cooking gadgets.<p>
-        <button class="bestselling-button">BEST-SELLING PRODUCTS</buttona>
+        <button class="bestselling-button">BEST-SELLING PRODUCTS</button>
 	  </div>
     </header>
      <!-- Modal Cart -->
@@ -100,7 +100,7 @@
                   <div class="slider">
                       <div class="col mb-4 ">
                         <div class="card slider__item filter h-100">
-                          <img src="img\bicycle-pizza-cutter350-350.jpg" alt="bicycle like pizza cutter cuts the pizza" class="card-img-top">
+                          <img src="../img/bicycle-pizza-cutter350-350.jpg" alt="bicycle like pizza cutter cuts the pizza" class="card-img-top">
                           <div class="card-body">
                               <h4 class="card-title">Bicycle Pizza Cutter</h4>
                           </div>
@@ -108,7 +108,7 @@
                       </div>
                       <div class="col mb-4">
                         <div class="card slider__item filter h-100">
-                          <img img src="img\rock-and-roll-oven-mitt350-350.jpg" alt="Cool rock-and-roll-oven-mitt" class="card-img-top">
+                          <img src="../img/rock-and-roll-oven-mitt350-350.jpg" alt="Cool rock-and-roll-oven-mitt" class="card-img-top">
                           <div class="card-body">
                               <h4 class="card-title">Rock 'n' Roll Oven Mitt</h4>
                            </div>
@@ -116,7 +116,7 @@
                       </div>
                       <div class="col mb-4">
                         <div class="card slider__item filter h-100">
-                          <img src="img\fruit-keg-tapping-kit350-350.jpg" alt="A watermellon with keg tapping kit" class="card-img-top">
+                          <img src="../img/fruit-keg-tapping-kit350-350.jpg" alt="A watermellon with keg tapping kit" class="card-img-top">
                           <div class="card-body">
                               <h4 class="card-title">Fruit Keg Tapping Kit</h4>          
                            </div>
@@ -124,7 +124,7 @@
                       </div>
                       <div class="col mb-4">
                         <div class="card slider__item filter h-100">
-                          <img src="img\funny-silicone-egg-mold350-350.jpg" alt="Funny Side up Silicone Egg Mold on the fruing pen" class="card-img-top">
+                          <img src="../img/funny-silicone-egg-mold350-350.jpg" alt="Funny Side up Silicone Egg Mold on the fruing pen" class="card-img-top">
                           <div class="card-body">
                               <h4 class="card-title">Funny Silicone Egg Mold</h4>
                            </div>
@@ -133,21 +133,12 @@
                     </div>
               </div>
 
-             <!-- <section>
-                <div class="collection">
-                <h2 class="collection-title">
-                  <span>2020 </span>
-                  <br>Autumn Collection</h2>
-              <article class="collection-undertitle">Best styles for your kitchen in the most trending colors of 2020.  Shop the most curious and cute kitchen gadgets.<p>
-              </div>
-              </section>-->
               <section id="collection">
                 <div id="year" class="year"></div>
-            
-                <h1 class="collection-title"><span>2020 </span>Autumn Collection</h1>
+                            <h2 class="collection-title"><span>2020 </span>Autumn Collection</h2>
             
                 <div>
-                  <p class="comingsoon" true>
+                  <p class="comingsoon">
                       <span class="comingsoon-word">COMING</span>
                       <span class="comingsoon-word">SOON!</span>
                   </p>
@@ -177,9 +168,7 @@
                 id="loading"
                 class="loading"
               />
-
-
-          
+         
             </section>
 
              <section class="products-box">
@@ -189,162 +178,6 @@
                </div>
               </section>
               
-              <!--
-              <section id="products">
-                <h2 class="section-header">Our Products</h2>
-              <p class="section-undertitle">The best designer products from the 2020 collections.</p>
-              
-              
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link active products-nav" id="home-tab" data-toggle="tab" href="#summer-stuff" role="tab" aria-controls="home" aria-selected="true">Summer Stuff</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link products-nav" id="profile-tab" data-toggle="tab" href="#breakfast-specials" role="tab" aria-controls="profile" aria-selected="false">Breakfast Specials</a>
-                </li>
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link products-nav" id="contact-tab" data-toggle="tab" href="#oven-mitts" role="tab" aria-controls="contact" aria-selected="false">Cute Oven Mitts</a>
-                </li>
-              </ul>
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="summer-stuff" role="tabpanel" aria-labelledby="home-tab">
-                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img\fruit-keg-tapping-kit350-350.jpg" class="card-img-top" alt="A watermellon with keg tapping kit">
-                        <div class="card-body">
-                          <h5 class="card-title">Fruit Keg Tapping Kit</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4 ">
-                      <div class="card h-100">
-                        <img src="img/bicycle-pizza-cutter350-350.jpg" alt="bicycle like pizza cutter cuts the pizza" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Bicycle Pizza Cutter</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/red-strawberry-huller350-350.jpg" alt="Red strawberry huller in different positions with strawberry" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Strawberry Huller</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                         </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/four-popsicle-molds350-350.jpg" alt="Four colourful popsicle molds" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Popsicle Molds</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="breakfast-specials" role="tabpanel" aria-labelledby="profile-tab">
-                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/funny-silicone-egg-mold350-350.jpg" alt="Funny Side up Silicone Egg Mold on the fruing pen" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Funny Silicone Egg Mold</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$5.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/avocado-slicer-three-in-one350-350.jpg" alt="Green 3 In 1 Avocado Slicer" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">3 In 1 Avocado Slicer</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$5.00</p>
-                         </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/nessie-ladle350-350.jpg" alt="Blue Nessie-like Ladle in the pan with a soup"  class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Nessie Laddle</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$15.00</p>
-                         </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/mister-tea-silicone-infuser350-350.jpg" alt="Silicone Man Tea Infuser Swimming in the White Cup of Tea" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Silicone Tea Infuser</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$5.00</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="tab-pane fade" id="oven-mitts" role="tabpanel" aria-labelledby="contact-tab">
-                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/rock-and-roll-oven-mitt350-350.jpg" alt="Cool rock-and-roll-oven-mitt" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Rock 'n' Roll Oven Mitt</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/bear-oven-mitts350-350.jpg" alt="Bear paws like oven mitts"  class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Bear Oven Mitts</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$10.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img/darth-vader-oven-mitts350-350.jpg" alt="Star Wars Darth Vader Silicone Oven Mitts" class="card-img-top">
-                        <div class="card-body">
-                          <h5 class="card-title">Darth Vader Oven Mitts</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$25.00</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col mb-4">
-                      <div class="card h-100">
-                        <img src="img\hulk-oven-mitts350-350.jpg" class="card-img-top" alt="Marvel 'The Incredible Hulk' Oven Mitts">
-                        <div class="card-body">
-                          <h5 class="card-title">Hulk Oven Mitts</h5>
-                          <a class="btn btn-primary">Buy</a>
-                          <p class="card-text">$5.00</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              </section>-->
-              
-              
-
               <section class="customers-section">
                 <h2 class="section-header">What Our Customers Say</h2>
                 <p class="section-undertitle">We love your feedback on our products!<p>
@@ -353,7 +186,7 @@
                 <div class="slider-customers row row-cols-1">
                     <div class="col mb-4">
                       <div class="card slider__item filter">
-                        <img src="img\spiderman-avatar330.png" class="rounded-circle" alt="100x100" data-holder-rendered="true">
+                        <img src="../img/spiderman-avatar330.png" class="rounded-circle" alt="100x100" data-holder-rendered="true">
                         <div class="card-body cust">
                           <h4 class="card-title">Spiderman</h4>
                           <h5 class="card-contact">New York</h5>
@@ -364,7 +197,7 @@
                     </div>
                     <div class="col mb-4">
                       <div class="card slider__item filter">
-                        <img src="img\rocket-racoon-avatar-330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
+                        <img src="../img/rocket-racoon-avatar-330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
                         <div class="card-body cust">
                           <h4 class="card-title">Rocket</h4>
                           <h5 class="card-contact">Secret Place</h5>
@@ -375,7 +208,7 @@
                     </div>
                     <div class="col mb-4">
                       <div class="card slider__item filter">
-                        <img src="img\lilu-dallas-avatar330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
+                        <img src="../img/lilu-dallas-avatar330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
                         <div class="card-body cust">
                           <h4 class="card-title">Lilu Dallas</h4>
                           <h5 class="card-contact">Some Galaxy</h5>
@@ -386,7 +219,7 @@
                     </div>
                     <div class="col mb-4">
                       <div class="card slider__item filter">
-                        <img src="img\harry-potter-avatar330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
+                        <img src="../img/harry-potter-avatar330.jpg" class="rounded-circle" alt="100x100" data-holder-rendered="true">
                         <div class="card-body cust">
                           <h4 class="card-title">Harry Potter</h4>          
                           <h5 class="card-contact">Hogwarts</h5>
@@ -425,16 +258,16 @@
                 <div class="prefooter-container1">
                 <form action="https://formspree.io/moqklddz" method="POST">
                   <fieldset>
-                  <textarea class="formField" rows="1" type="text" name="name" placeholder="Enter your full name*" required></textarea>
+                  <textarea class="formField" rows="1" name="name" placeholder="Enter your full name*" required></textarea>
                   <br>
-                  <textarea class="formField" rows="1" type="tel" name="phone-number" placeholder="Enter your phone number*" required></textarea>
+                  <textarea class="formField" rows="1" name="phone-number" placeholder="Enter your phone number*" required></textarea>
                   <br>
-                  <textarea class="formField" type="email" name="email" rows="1" placeholder="Enter your e-mail*" required></textarea>
+                  <textarea class="formField" name="email" rows="1" placeholder="Enter your e-mail*" required></textarea>
                   <br>
                   <textarea class="formField" name="quote" rows="5" cols="30" placeholder="Type your message"></textarea>
                   <br>  
                 </fieldset>
-                  <input class="submit-button" type="submit" value="SUBMIT"></input>
+                  <input class="submit-button" type="submit" value="SUBMIT">
                 </form>
                 </div>
                 <div class="prefooter-container2" id="contact">

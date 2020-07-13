@@ -3,7 +3,8 @@
 :root {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
-    --main-color: #7BB57C; }
+    --main-color: #7BB57C;
+    }
 
     *,*:before,*:after{
         padding: 0;
@@ -308,8 +309,7 @@ footer {
 
     .prefooter {
       display: flex;
-      flex: 50% 50%;
-      flex-direction: row;
+     flex-direction: row;
       padding-left: 8%;
       padding-right: 8%;
       margin-top: 70px;
@@ -449,7 +449,6 @@ color: grey;
         font-size: 30px;
         font-weight: 600;
         padding-bottom: 30px;
-        font-stretch: 100%;
         line-height: 36px;
     
     }

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>KitchenSpace</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/frying-pen-logo.jpg">
+  </head>
+  <body>
+
+        </div>
+        <section>
+            <h2 id="products">Products</h2>
+            <div class="row products-container">
+               <!--Products are dynamically generated here-->
+            </div>
+        </section>
+    </main>
+    
+    <footer class="container">
+      <h2 id="contacts">Contact us</h2>
+      <p>Copyright by <a href="https://programmingmentor.com">Programming Mentor</a></p>
+    </footer>
+    
+
+    <!-- Modal Product Info -->
+    <div class="modal fade" id="productInfoModal" tabindex="-1" role="dialog" aria-labelledby="productInfoLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoLabel">Product Info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <img class="card-img-top" src="" alt="">
+              <h4 class="card-title"></h4>
+              <p class="card-text"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary buy" data-id="id">Buy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal Cart -->
+    <div class="modal fade" id="modal-cart" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Cart</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form class="form-contacts">
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Your name:</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Your email:</label>
+                  <input class="form-control col-8" type="email" id="client-email" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+            <button class="btn btn-primary order">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+          <!--Products are dynamically generated here-->
+            </div>
+            </section>
+              
+              <!--<section id="products">
+                <h2 class="section-header">Our Products</h2>
+              <p class="section-undertitle">The best designer products from the 2020 collections.</p>
+              
+              
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active products-nav" id="home-tab" data-toggle="tab" href="#summer-stuff" role="tab" aria-controls="home" aria-selected="true">Summer Stuff</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link products-nav" id="profile-tab" data-toggle="tab" href="#breakfast-specials" role="tab" aria-controls="profile" aria-selected="false">Breakfast Specials</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link products-nav" id="contact-tab" data-toggle="tab" href="#oven-mitts" role="tab" aria-controls="contact" aria-selected="false">Cute Oven Mitts</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="summer-stuff" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img\fruit-keg-tapping-kit350-350.jpg" class="card-img-top" alt="A watermellon with keg tapping kit">
+                        <div class="card-body">
+                          <h5 class="card-title">Fruit Keg Tapping Kit</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4 ">
+                      <div class="card h-100">
+                        <img src="img/bicycle-pizza-cutter350-350.jpg" alt="bicycle like pizza cutter cuts the pizza" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Bicycle Pizza Cutter</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/red-strawberry-huller350-350.jpg" alt="Red strawberry huller in different positions with strawberry" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Strawberry Huller</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/four-popsicle-molds350-350.jpg" alt="Four colourful popsicle molds" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Popsicle Molds</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="breakfast-specials" role="tabpanel" aria-labelledby="profile-tab">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/funny-silicone-egg-mold350-350.jpg" alt="Funny Side up Silicone Egg Mold on the fruing pen" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Funny Silicone Egg Mold</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$5.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/avocado-slicer-three-in-one350-350.jpg" alt="Green 3 In 1 Avocado Slicer" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">3 In 1 Avocado Slicer</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$5.00</p>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/nessie-ladle350-350.jpg" alt="Blue Nessie-like Ladle in the pan with a soup"  class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Nessie Laddle</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$15.00</p>
+                         </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/mister-tea-silicone-infuser350-350.jpg" alt="Silicone Man Tea Infuser Swimming in the White Cup of Tea" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Silicone Tea Infuser</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$5.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="oven-mitts" role="tabpanel" aria-labelledby="contact-tab">
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/rock-and-roll-oven-mitt350-350.jpg" alt="Cool rock-and-roll-oven-mitt" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Rock 'n' Roll Oven Mitt</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/bear-oven-mitts350-350.jpg" alt="Bear paws like oven mitts"  class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Bear Oven Mitts</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$10.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img/darth-vader-oven-mitts350-350.jpg" alt="Star Wars Darth Vader Silicone Oven Mitts" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Darth Vader Oven Mitts</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$25.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col mb-4">
+                      <div class="card h-100">
+                        <img src="img\hulk-oven-mitts350-350.jpg" class="card-img-top" alt="Marvel 'The Incredible Hulk' Oven Mitts">
+                        <div class="card-body">
+                          <h5 class="card-title">Hulk Oven Mitts</h5>
+                          <a class="btn btn-primary">Buy</a>
+                          <p class="card-text">$5.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              </section>-->
+
+
+              <!-- Modal Cart -->
+    <
+
+<script src="https://kit.fontawesome.com/36d9fd7474.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/products-service.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>
+    <script src="js/index.js"></script> 
+
+
+    </body>
+    </html>

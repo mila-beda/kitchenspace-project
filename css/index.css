@@ -102,9 +102,9 @@ i {
 }
 
 .basket-button {
-    padding: 0.5em 0.5em 0.5em 0.5em;
-    border: 0.1em solid transparent;
-    margin: -0.8em 0.3em 0.3em 0.8em;
+    padding: 0.3em;
+    border: solid transparent;
+    margin-top: 0.5em;
     border-radius: 0.5em;
     color: white;
     text-align: center;
@@ -117,7 +117,7 @@ i {
     color: #000000;
     background-color: var(--main-color);
     cursor: pointer;
-    border: none;
+   
 }
 
 a.openCartLink:hover {
@@ -132,6 +132,7 @@ a.openCartLink:hover {
     .basket-button {
         font-size: 11px;
         padding: 0.6em 1em 1em 0.6em;
+        margin: -0.8em 0.3em 0.3em 0.8em;
     }
 }
 
@@ -179,7 +180,7 @@ header p:first-of-type {
     color: #F7F5F6;
 }
 
-.bestselling-button {
+.buy-now {
     padding: 1.5em 1.5em 1.5em 1.5em;
     border: 0.1em solid transparent;
     margin: -0.8em 0.3em 0.3em 0;
@@ -190,6 +191,13 @@ header p:first-of-type {
     font-weight: 700;
     font-size: 14px;
     height: 4em;
+}
+
+.buy-now:hover {
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: white;
+
 }
 
 .section-header {
